@@ -18,8 +18,6 @@ while a==1:
                   price[fruit]=fruit
                   price[fruit]=pr
                   stock[fruit]=st
-                    #for i in price:
-                    #print ("Name of Fruit= "+i+" Price=₹",price[i],"Quantity=",stock[i],"kg")
                   print("Name and Price of Fruit:",price)
                   print("Name and Stock of Fruit",stock)
                     
@@ -30,8 +28,6 @@ while a==1:
             if price.keys==fruit:
 
                  st=int(input("Enter the quantity of the Fruit= \n"))
-                 #pr=int(input("Enter the Price of the Fruit="))
-                 #price[fruit]=fruit
                  stock[fruit]=stock[fruit]+st
                  print(price)
                  print(stock)
@@ -50,9 +46,6 @@ while a==1:
               if stock[fruit]<st:
                   print("Dicard Quantity exceeds Existing Quantity")
               else:    
-                  #print(price)
-                  #pr=int(input("Enter the Price of the Fruit="))
-                  #for fruit in stock:
                   stock[fruit]=stock[fruit]-st
                   print("Remaining stock of fruit "+fruit,stock[fruit],"kg")
                   print(stock)
@@ -96,13 +89,7 @@ while a==1:
     print("All Fruits and their price in the Inventory:\n")
     for i in price:
       print ("Name of Fruit= "+i+" Price=₹",price[i],"Quantity=",stock[i],"kg\n")
-        #print("Name and Quantity of fruit",fruit)
-        #print(price.values)    
-    #for values in price.values(),stock.values():
-     #print(values)
-    #for fruit in stock:
-        #print(fruit)           
-    
+               
   else:
     print("Invalid Input")
     #print(price,stock)
